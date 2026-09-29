@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med Spa App</title>
+
+    <link rel="stylesheet" href="assets/styles.css">
+
+</head>
+<body>
+    <h1>Air Quality Check Before Treatment</h1>
+    <p class ="firstP">For all the sensitive skin clients, there's no limit to how cautious your office can be to prevent skin irritation from becoming a major concern and part of a client's experience.</p>
+    <p class="secondP">Check to view the daily air quality below to help determine if it's best to perform a treatment or give the option to reschedule instead.</p>
+    <section class="inputs">
+        <input id = "zipCode" type = "text" placeholder = "enter your zipcode">
+        <button id="submit">Submit</button>
+    </section>
+
+    <!-- <h3 id= "lat">Latitude: </h3>
+    <h3 id= "long">Longitude: </h3> --> 
+    <!-- We only used the above two elements as a way to test that we were grabbing the correct lat and long -->
+    <section class="quality">
+        <h2 id= "airQuality">Today's air quality is: </h2>
+        <h3 id="level">Air pollution level is: </h3>
+        <h3 id="recs">Advice: </h3>
+    </section>
+    <section class="imgContainer">
+         <img src="assets/photos/airQualityIndexTable.png" alt="image of an air quality index chart">
+        <figcaption>This table shows the Air Quality Index scale as defined by the US-EPA 2016 standard</figcaption>
+    </section>
+   
+<script src="assets/main.js"></script>
+</body>
+</html>
